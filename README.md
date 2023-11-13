@@ -1,3 +1,11 @@
+
+# Aplicativo Verificador de Palíndromos
+
+Este é um aplicativo de linha de comando para verificar se uma palavra ou frase é um palíndromo.
+
+## Estrutura do Projeto
+
+```
 palindrome_checker/
 │
 ├── bin/
@@ -13,20 +21,25 @@ palindrome_checker/
 │   └── app/               # Classe principal do aplicativo
 │       └── palindrome_app.dart
 │
-└── test/                         # Testes unitários e de integração
-    └── palindromo_test.dart      # Arquivos de teste
+└── test/                  # Testes unitários e de integração
+    └── palindromo_test.dart
+```
 
+## Funcionalidades
 
-Aplicativo de linha de comando.
+- **Aceita Entradas**:
+  - `SAIR`: Encerra a aplicação.
+  - `Palavras`: Verifica se as palavras inseridas são palíndromos.
 
-Aceita entradas:
-SAIR - para deixar o app
-Palavras - para checar se são palindromo
+- **Não Aceita Entradas**:
+  - Números (inteiros ou decimais).
 
-Não aceita:
-entradas em int ou double
+## Como Executar
 
-Executar:
+Para executar o aplicativo, use o comando:
+
+```bash
 dart run main.dart
+```
 
-
+Siga as instruções na tela para verificar palíndromos ou sair do aplicativo.
